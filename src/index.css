@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card-container {
+  background-color: #161619;
+  height: 650px;
+  width: 250px;
+  padding: 15px;
+}
+
+.name-plate {
+  color: #DCDCDC;
+}
+
+.job-plate {
+  color: #F5F5F5;
+}
+
+.about-plate {
+  color: #DCDCDC;
+}
+
+.about-text {
+  color: #F5F5F5;
+}
+
+.interest-plate {
+  color: #DCDCDC;
+}
+
+.interest-text {
+  color: #F5F5F5;
+}
+
+.footer-plate {
+  background: #161619;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #918E9B;
+}
+
+a.facebook {
+  color: #918E9B;
+}
+
+a.twitter {
+  color: #918E9B;
+}
+
+a.instagram {
+  color: #918E9B;
+}
